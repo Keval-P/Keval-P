@@ -2,7 +2,6 @@
 
 <h1 align="center">Keval Pandya</h1>
 
-<p align="center"><b>AI/ML Engineer · GPU Inference &amp; Edge AI · CUDA · TensorRT · DeepStream · LLM/RAG</b></p>
 
 <p align="center"><img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=21&duration=2800&pause=900&color=7AA2FF&center=true&vCenter=true&width=820&lines=I+turn+AI+models+into+reliable+real-time+systems;PyTorch+%E2%86%92+ONNX+%E2%86%92+TensorRT+%E2%86%92+production;Multi-camera+pipelines+on+Jetson+and+RTX;Frames+stay+on+the+GPU%2C+from+decode+to+inference" alt="I turn AI models into reliable real-time systems" /></p>
 
@@ -181,10 +180,9 @@ plus VLM fine-tuning and LLM/RAG applications.</p>
 
 <h2>📈 GitHub stats</h2>
 <p align="center">
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Keval-P&show_icons=true&hide_border=true&bg_color=0b1220&title_color=7aa2ff&text_color=adbbd2&icon_color=7aa2ff" alt="Keval Pandya GitHub stats" />
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Keval-P&show_icons=true&hide_rank=true&hide=stars,issues&hide_border=true&bg_color=0b1220&title_color=7aa2ff&text_color=adbbd2&icon_color=7aa2ff" alt="Keval Pandya GitHub stats" />
 <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs?username=Keval-P&layout=compact&hide_border=true&bg_color=0b1220&title_color=7aa2ff&text_color=adbbd2&icon_color=7aa2ff" alt="Keval Pandya top languages" />
 </p>
-<p align="center"><img src="https://github-readme-streak-stats.herokuapp.com/?user=Keval-P&hide_border=true&background=0b1220&ring=7aa2ff&fire=7aa2ff&currStreakLabel=7aa2ff&sideLabels=adbbd2&currStreakNum=edf3ff&sideNums=edf3ff&dates=91a3bf" alt="Keval Pandya contribution streak" /></p>
 
 <h2>📫 Where to find me</h2>
 <p align="center">
