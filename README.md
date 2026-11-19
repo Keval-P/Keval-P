@@ -156,7 +156,7 @@ GStreamer, and moving pre- and post-processing onto the GPU with CUDA.</p>
 
 <h1>Community</h1>
 <ul>
-  <li><a href="https://ai.stackexchange.com/users/78733/keval-pandya">AI Stack Exchange</a>: 32 answers, 676 reputation, mostly on machine learning, neural networks and GPU questions.</li>
+  <li><a href="https://ai.stackexchange.com/users/78733/keval-pandya">AI Stack Exchange</a>: <!--SE:START-->32 answers, 676 reputation<!--SE:END-->, mostly on machine learning, neural networks and GPU questions.</li>
   <li>NVIDIA-Certified Associate: Generative AI and LLMs (2026)</li>
 </ul>
 
@@ -170,3 +170,6 @@ GStreamer, and moving pre- and post-processing onto the GPU with CUDA.</p>
 <a href="https://keval-p.github.io/" target="_blank"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=githubpages&logoColor=DC1D47" /></a>
 <a href="https://ai.stackexchange.com/users/78733/keval-pandya" target="_blank"><img alt="AI Stack Exchange" src="https://img.shields.io/badge/AI_Stack_Exchange-000000?style=for-the-badge&logo=stackexchange&logoColor=DC1D47" /></a>
 </p>
+
+<p><a href="https://github.com/Keval-P/Keval-P/actions/workflows/profile.yml"><img src="https://github.com/Keval-P/Keval-P/actions/workflows/profile.yml/badge.svg" alt="Profile CI" /></a></p>
+<p>⏰ <!--UPDATED:START-->Updated on Thu, 19 Nov 2026<!--UPDATED:END--></p>

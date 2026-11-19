@@ -1,0 +1,55 @@
+name: Profile CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    - cron: "17 2 * * 1"     # every Monday, 02:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    name: Check README
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: README markers are present
+        run: |
+          for m in SE UPDATED; do
+            grep -q "<!--$m:START-->" README.md && grep -q "<!--$m:END-->" README.md || { echo "missing marker $m"; exit 1; }
+          done
+      - name: Links resolve
+        uses: lycheeverse/lychee-action@v2
+        with:
+          # badge and widget hosts rate-limit CI runners; Stack Exchange blocks bots
+          args: >-
+            --no-progress --max-retries 2 --timeout 30
+            --exclude 'img\.shields\.io' --exclude 'komarev\.com' --exclude 'vercel\.app'
+            --exclude 'media\.giphy\.com' --exclude 'ai\.stackexchange\.com'
+            README.md
+          fail: true
+
+  update:
+    name: Refresh generated sections
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    needs: check
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python scripts/update_readme.py --touch
+      - name: Commit if changed
+        run: |
+          if git diff --quiet; then echo "nothing to commit"; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "Refresh profile README"
+          git push
