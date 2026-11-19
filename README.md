@@ -17,10 +17,9 @@
 <h2>👋 About</h2>
 
 <p><b>Keval Pandya</b> is an AI/ML engineer in Ahmedabad, India, with 3 years of experience designing, developing and deploying
-production AI systems across computer vision, GPU inference and edge AI. I have developed and deployed 15+ AI solutions
-across industrial automation, logistics, safety monitoring and face recognition, working end to end: model development,
-inference optimisation and real-time multi-camera systems with PyTorch, ONNX, TensorRT, PyCUDA, DeepStream and GStreamer,
-plus VLM fine-tuning and LLM/RAG applications.</p>
+production AI systems across computer vision, GPU inference and edge AI. I work end to end: model development, inference
+optimisation and real-time multi-camera systems with PyTorch, ONNX, TensorRT, PyCUDA, DeepStream and GStreamer, plus VLM
+fine-tuning and LLM/RAG applications.</p>
 
 <h2>⚙️ What I do</h2>
 <ul>
@@ -31,23 +30,6 @@ plus VLM fine-tuning and LLM/RAG applications.</p>
   <li><b>Edge-to-cloud architecture.</b> Multi-camera inference and event processing with Docker, Kubernetes, NVIDIA GPU Operator, RabbitMQ, Kafka, Redis and MongoDB.</li>
   <li><b>VLM and LLM systems.</b> Vision-language model fine-tuning with 4-bit quantisation (Unsloth), LLM/RAG services with FastAPI, Qdrant and FAISS, tracking with MLflow and W&amp;B.</li>
 </ul>
-
-<h2>🚀 Selected work</h2>
-
-<table>
-  <thead>
-    <tr><th align="left">Project</th><th align="left">What it does</th><th align="left">Result</th><th align="left">Stack</th></tr>
-  </thead>
-  <tbody>
-    <tr><td><b>Logistics yard &amp; gate automation</b></td><td>Multi-camera gate system: vehicle detection, container classification, OCR, damage inspection and VLM metadata extraction</td><td><b>24 → 60 FPS</b> gate, 2 → 10 FPS yard; accuracy 85% → 95%</td><td>TensorRT · PyCUDA · VLM · RTX &amp; Jetson</td></tr>
-    <tr><td><b>Danger zone monitoring</b></td><td>Real-time industrial safety: detection, tracking and polygon zones that stop machinery on intrusion</td><td><b>5 → 20 cameras</b>, 3 → 10 FPS on one Orin Nano; CPU −60%, VRAM ~7 GB → 3–4 GB</td><td>Jetson Orin · GStreamer · PyCUDA</td></tr>
-    <tr><td><b>Multi-camera face recognition</b></td><td>Detection, alignment, embeddings, vector search and anti-spoofing with custom-trained models</td><td>Migrated <b>Python → C++</b> with native threads and preallocated buffers</td><td>ONNX Runtime · TensorRT · Qdrant · FAISS · C++</td></tr>
-    <tr><td><b>Industrial anomaly detection</b></td><td>Custom model for small-object and surface-defect detection</td><td>Accuracy 78% → 95%; <b>5 s → 500 ms</b> per frame</td><td>Model architecture · Jetson Orin NX</td></tr>
-    <tr><td><b>Automatic number plate recognition</b></td><td>Plate detection with rectification, CTC recognition, multi-frame voting; autoscaled event workers</td><td>Accuracy <b>70% → 95–98%</b>; 3–5 → 11 FPS per camera</td><td>TensorRT · OCR · Kubernetes · KEDA</td></tr>
-    <tr><td><b>Object detection &amp; counting</b></td><td>Multi-camera DeepStream pipeline with tracking IDs and line-crossing counts</td><td><b>7 → 15 FPS</b> on a 4 GB Jetson</td><td>DeepStream · TensorRT FP16</td></tr>
-    <tr><td><b>Digital twin monitoring</b></td><td>Live person positions on a facility floor map with face recognition and cross-camera re-identification</td><td>Per-camera homography calibration and custom cross-camera association</td><td>CUDA · Re-ID · Face recognition</td></tr>
-  </tbody>
-</table>
 
 <h2>🧰 Skills</h2>
 
