@@ -2,9 +2,20 @@
 
 <p><img src="https://komarev.com/ghpvc/?username=Keval-P&label=Profile+Views&color=DC1D47&style=for-the-badge&labelColor=000000" alt="Profile views" /></p>
 
-<p>AI/ML engineer in Ahmedabad, India. I work on computer vision and edge inference: getting models to run fast and
-correctly on NVIDIA Jetson and RTX GPUs with TensorRT, building multi-camera video pipelines in DeepStream and
-GStreamer, and moving pre- and post-processing onto the GPU with CUDA.</p>
+<p><b>Keval Pandya</b> — AI/ML engineer in Ahmedabad, India, with 3 years of experience designing, building and deploying
+production AI systems across computer vision, GPU inference and edge AI. I work end to end: model development,
+inference optimisation and real-time multi-camera systems with PyTorch, ONNX, TensorRT, PyCUDA, DeepStream and
+GStreamer, plus VLM fine-tuning and LLM/RAG applications.</p>
+
+<h1>What I do</h1>
+<ul>
+  <li><b>Computer vision and edge AI, end to end.</b> Model training, PyTorch-to-ONNX conversion, TensorRT optimisation and hardware-specific rollout on RTX GPUs, NVIDIA Jetson, NPUs and Raspberry Pi.</li>
+  <li><b>GPU inference optimisation.</b> Profiling with Nsight Systems, Nsight Compute and trtexec; keeping frames on the GPU from NVDEC decode through pre- and post-processing; overlapping transfers and compute with pinned memory and CUDA streams; reusing preallocated GPU buffers to raise throughput and control VRAM.</li>
+  <li><b>Model and graph work.</b> ONNX graph changes (node fusion, operator simplification, dynamic-shape fixes), FP32/FP16 TensorRT engines, and accuracy checks against the FP32 baseline before anything is deployed.</li>
+  <li><b>Multi-camera pipelines.</b> DeepStream and GStreamer pipelines with detection, tracking, re-identification, OCR and face recognition, in Python and C++.</li>
+  <li><b>Edge-to-cloud architecture.</b> Scalable multi-camera inference and event processing with Docker, Kubernetes, NVIDIA GPU Operator, RabbitMQ, Kafka, Redis and MongoDB.</li>
+  <li><b>VLM and LLM systems.</b> Fine-tuning vision-language models with 4-bit quantisation (Unsloth) for structured extraction; LLM/RAG services with FastAPI, Qdrant and FAISS; experiment and model tracking with MLflow and W&amp;B.</li>
+</ul>
 
 <h1><b>Skills</b></h1>
 
@@ -116,48 +127,14 @@ GStreamer, and moving pre- and post-processing onto the GPU with CUDA.</p>
 <img src="https://img.shields.io/badge/Raspberry-Pi-000000?style=for-the-badge&logo=raspberrypi&logoColor=DC1D47" />
 </div>
 
-<h1>What I am building</h1>
-<table>
-  <thead align="center">
-    <tr>
-      <td><b>🎁 Project</b></td>
-      <td><b>🔧 What it is</b></td>
-      <td><b>📌 Status</b></td>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><b>YOLO26 runtime comparison on Jetson Orin Nano</b></td>
-      <td>One detector taken step by step from the default PyTorch model through ONNX Runtime, TensorRT and custom CUDA kernels (PyCUDA, CV-CUDA) to native C++ CUDA</td>
-      <td>Releasing soon</td>
-    </tr>
-    <tr>
-      <td><b>DeepStream line-crossing counter</b></td>
-      <td>Detection, tracking and counting objects that cross a line</td>
-      <td>Releasing soon</td>
-    </tr>
-    <tr>
-      <td><b>TensorRT FP32 / FP16 / INT8 check</b></td>
-      <td>Three engines from one ONNX model, compared for speed and accuracy</td>
-      <td>Releasing soon</td>
-    </tr>
-    <tr>
-      <td><b>DeepStream, GPU-pipeline and Kubernetes learning projects</b></td>
-      <td>A set of hands-on projects being cleaned up for release</td>
-      <td>Releasing soon</td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Keval-P/cython_bbox"><b>cython_bbox</b></a></td>
-      <td>Fork that builds on current NumPy (<code>np.float</code> replaced by <code>np.float64</code>); fix sent upstream in <a href="https://github.com/samson-wang/cython_bbox/pull/14">samson-wang/cython_bbox#14</a></td>
-      <td><img alt="Stars" src="https://img.shields.io/github/stars/Keval-P/cython_bbox?style=flat-square&labelColor=343b41"/></td>
-    </tr>
-  </tbody>
-</table>
-
-<h1>Community</h1>
+<h1>Community and certifications</h1>
 <ul>
-  <li><a href="https://ai.stackexchange.com/users/78733/keval-pandya">AI Stack Exchange</a>: <!--SE:START-->32 answers, 676 reputation<!--SE:END-->, mostly on machine learning, neural networks and GPU questions.</li>
-  <li>NVIDIA-Certified Associate: Generative AI and LLMs (2026)</li>
+  <li><a href="https://ai.stackexchange.com/users/78733/keval-pandya">AI Stack Exchange</a>: <!--SE:START-->32 answers, 676 reputation<!--SE:END-->; ranked 10th by reputation on the site in 2024.</li>
+  <li>Open source: <a href="https://github.com/samson-wang/cython_bbox/pull/14">samson-wang/cython_bbox#14</a>, making the package build on current NumPy (also in <a href="https://github.com/Keval-P/cython_bbox">my fork</a>).</li>
+  <li>NVIDIA-Certified Associate: Generative AI and LLMs (NCA-GENL), 2026</li>
+  <li>TensorFlow Developer Certificate, 2024</li>
+  <li>AI Programming with Python Nanodegree, Udacity, 2022</li>
+  <li>B.E. in Information Technology, Shantilal Shah Engineering College, Bhavnagar (2019 – 2023)</li>
 </ul>
 
 <h1>GitHub Stats</h1>
@@ -168,6 +145,7 @@ GStreamer, and moving pre- and post-processing onto the GPU with CUDA.</p>
 <p>
 <a href="https://github.com/Keval-P" target="_blank"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=DC1D47" /></a>
 <a href="https://keval-p.github.io/" target="_blank"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=githubpages&logoColor=DC1D47" /></a>
+<a href="https://www.linkedin.com/in/keval-pandya-ai-ml-engineer" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=DC1D47" /></a>
 <a href="https://ai.stackexchange.com/users/78733/keval-pandya" target="_blank"><img alt="AI Stack Exchange" src="https://img.shields.io/badge/AI_Stack_Exchange-000000?style=for-the-badge&logo=stackexchange&logoColor=DC1D47" /></a>
 </p>
 
