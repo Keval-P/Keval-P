@@ -22,15 +22,6 @@ across industrial automation, logistics, safety monitoring and face recognition,
 inference optimisation and real-time multi-camera systems with PyTorch, ONNX, TensorRT, PyCUDA, DeepStream and GStreamer,
 plus VLM fine-tuning and LLM/RAG applications.</p>
 
-<table align="center">
-  <tr>
-    <td align="center"><h3>15+</h3>AI solutions delivered</td>
-    <td align="center"><h3>5 → 20 cameras</h3>on a single Jetson Orin Nano</td>
-    <td align="center"><h3>24 → 60 FPS</h3>gate automation throughput</td>
-    <td align="center"><h3>5 s → 500 ms</h3>per frame on Jetson Orin NX</td>
-  </tr>
-</table>
-
 <h2>⚙️ What I do</h2>
 <ul>
   <li><b>Computer vision and edge AI, end to end.</b> Model training, PyTorch-to-ONNX conversion, TensorRT optimisation and hardware-specific rollout on RTX GPUs, NVIDIA Jetson, NPUs and Raspberry Pi.</li>
