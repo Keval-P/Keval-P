@@ -25,11 +25,11 @@ jobs:
       - name: Links resolve
         uses: lycheeverse/lychee-action@v2
         with:
-          # badge and widget hosts rate-limit CI runners; Stack Exchange blocks bots
+          # badge and widget hosts rate-limit CI runners; Stack Exchange and LinkedIn block bots
           args: >-
             --no-progress --max-retries 2 --timeout 30
             --exclude 'img\.shields\.io' --exclude 'komarev\.com' --exclude 'vercel\.app'
-            --exclude 'media\.giphy\.com' --exclude 'ai\.stackexchange\.com'
+            --exclude 'media\.giphy\.com' --exclude 'ai\.stackexchange\.com' --exclude 'linkedin\.com'
             README.md
           fail: true
 
